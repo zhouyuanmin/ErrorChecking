@@ -1,0 +1,15 @@
+/bin/sh: adb: command not found
+Traceback (most recent call last):
+  File "/Users/zhou/Downloads/MyDemo/venv/bin/pyflakes", line 5, in <module>
+    from pyflakes.api import main
+  File "/Users/zhou/Downloads/MyDemo/venv/lib/python3.7/site-packages/pyflakes/api.py", line 12, in <module>
+    from pyflakes import checker, __version__
+  File "/Users/zhou/Downloads/MyDemo/venv/lib/python3.7/site-packages/pyflakes/checker.py", line 12, in <module>
+    import doctest
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/doctest.py", line 100, in <module>
+    import pdb
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/pdb.py", line 76, in <module>
+    import code
+  File "/Users/zhou/Desktop/ErrorChecking/code.py", line 7, in <module>
+    test
+NameError: name 'test' is not defined
